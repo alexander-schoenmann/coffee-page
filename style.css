@@ -1,6 +1,2 @@
-* {
-    font-family: 'Dancing Script', cursive;
-}
-body{
-    background-color: var(--backgound-color);
-}
+@import "variables.css";
+@import "base-styling.css";

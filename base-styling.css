@@ -1,0 +1,6 @@
+* {
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-color: var(--backgound-color);
+}
