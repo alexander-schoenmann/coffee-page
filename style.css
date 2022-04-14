@@ -1,2 +1,3 @@
-@import "variables.css";
-@import "base-styling.css";
+@import "css/variables.css";
+@import "css/base-styling.css";
+@import "css/typography.css";

@@ -1,0 +1,25 @@
+body {
+  background-color: var(--backgound-color) !important;
+}
+
+/* Overwrite Bootstrap styles */
+
+@import "../bootstrap-5.0.2/scss/_functions.scss";
+@import "../bootstrap-5.0.2/scss/_variables.scss";
+
+/* -------begin customization-------- */
+
+/* simply assign the value */
+$body-bg: #eeeeee;
+
+/* or, use an existing variable */
+$theme-colors: (
+        primary: #0D0D0D,
+        secondary: #FBD6BB,
+        light: #DCC1A1,
+        dark: #0D0D0D
+);
+/* -------end customization-------- */
+
+/* finally, import Bootstrap to set the changes! */
+@import "../bootstrap-5.0.2/scss/bootstrap.scss";
