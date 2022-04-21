@@ -1,6 +1,5 @@
-* {
-    font-family: 'Dancing Script', cursive;
-}
-body{
-    background-color: var(--backgound-color);
-}
+@import "css/variables.css";
+@import "css/base-styling.css";
+@import "css/typography.css";
+@import "css/flip-cards.css";
+@import "css/coffee-cup.css";
