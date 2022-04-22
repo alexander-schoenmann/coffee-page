@@ -1,0 +1,73 @@
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__aboutus {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container__aboutus .box {
+    position: relative;
+    width: 12rem;
+    height: 12rem;
+    margin: 4rem;
+}
+
+.container__aboutus .box:hover .imgBox {
+    transform: translate(-2.5rem, -2.5rem);
+}
+
+.container__aboutus .box:hover .content {
+    transform: translate(2.5rem, 2.5rem);
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    resize: both;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--coffee-brown-color);
+    color: var(--backgound-color);
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .container .box:hover .content {
+        transform: translate(0, 3.5rem);
+    }
+    .container .box:hover .imgBox {
+        transform: translate(0, -3.5rem);
+    }
+}
+/*# sourceMappingURL=main.css.map */
