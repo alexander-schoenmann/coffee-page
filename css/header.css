@@ -1,0 +1,77 @@
+.logo{
+    max-width: 5em;
+}
+
+
+/* The hero image */
+.hero-img{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/coffeemug.jpg");
+    height: 70vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Place text on image */
+.hero-text{
+    text-align: left;
+    color: #A06F35;
+
+}
+
+
+@media (max-width: 420px) {
+    .hero-img{
+        height: 250px;
+        width: auto;
+        background-size: 420px auto;
+        background-image: url("../images/coffeemug.jpg");
+        background-attachment: unset;
+
+        background-position: top;
+        justify-content: flex-start;
+        /*aspect-ratio: 2/1;*/
+    }
+}
+
+
+
+/*Nav-Bar Links*/
+.link-hover{
+    background-image: linear-gradient(
+            to right,
+            #A06F35,
+            #A06F35 50%,
+            #ffffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.link-hover:before{
+    content: '';
+    background: #A06F35;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.link-hover:hover{
+    background-position: 0;
+}
+.link-hover:hover::before{
+    width:100%;
+}
