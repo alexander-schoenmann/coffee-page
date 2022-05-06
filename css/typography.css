@@ -7,4 +7,9 @@ h1 {
   font-family: "Dancing Script", sans-serif !important;
 }
 
+h2 {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=typography.css.map */
