@@ -1,0 +1,12 @@
+.contact-form__input:hover{
+    border: 2px solid #ffffff;
+    background-color: #DCC1A1;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.contact-form__button:hover{
+    border: 1px solid #ffffff;
+    background-color: #fcdcc5;
+    color: #000000;
+    transition: 0.5s;
+}
