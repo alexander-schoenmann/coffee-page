@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
-*{
+* {
   font-family: "Helvetica Neue", "Roboto", sans-serif !important;
 }
 
@@ -11,4 +11,12 @@ h1 {
 h2 {
   font-family: "Helvetica Neue", "Roboto", sans-serif;
   font-size: 15px;
+}
+
+a {
+  color: var(--coffee-brown-color);
+
+  &:hover {
+    color: inherit;
+  }
 }

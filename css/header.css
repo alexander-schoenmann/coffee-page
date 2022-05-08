@@ -20,6 +20,19 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 767px){
+    .hero-img{
+        background-position: center;
+    }
+    .hero-text{
+        margin-top: 1.5rem;
+    }
+
+    .hero-text p {
+        margin-top: 6rem;
+    }
+}
+
 /* Place text on image */
 .hero-text{
     text-align: left;

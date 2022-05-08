@@ -12,4 +12,11 @@ h2 {
   font-size: 15px;
 }
 
+a {
+  color: var(--coffee-brown-color);
+}
+a:hover {
+  color: inherit;
+}
+
 /*# sourceMappingURL=typography.css.map */
