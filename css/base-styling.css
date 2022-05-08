@@ -130,6 +130,10 @@ p {
   margin-bottom: 1rem;
 }
 
+section{
+  margin-top: 60px;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   text-decoration: underline dotted;

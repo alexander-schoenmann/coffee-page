@@ -2,6 +2,9 @@
     max-width: 5em;
 }
 
+.hero{
+    margin-top: 0;
+}
 
 /* The hero image */
 .hero-img{
@@ -21,7 +24,6 @@
 .hero-text{
     text-align: left;
     color: #A06F35;
-
 }
 
 

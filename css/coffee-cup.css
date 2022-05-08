@@ -1,3 +1,7 @@
+.coffee-cup h1{
+    margin: 80px 0 45px 0;
+}
+
 .coffee_container {
     width: 150px;
     height: 100px;

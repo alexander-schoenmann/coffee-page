@@ -28,6 +28,10 @@
     transform: translate(2.5rem, 2.5rem);
 }
 
+.about-us h1{
+    text-align: center;
+}
+
 .imgBox {
     position: absolute;
     top: 0;

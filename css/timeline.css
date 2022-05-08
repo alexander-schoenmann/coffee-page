@@ -1,5 +1,13 @@
 /* Code by Ondrej - https://jsfiddle.net/bootstrapious/47s0u6yp/ */
 
+#timeline h1 {
+    text-align: center;
+}
+
+#timeline .description{
+    margin-top: 25px;
+}
+
 /* Timeline holder */
 ul.timeline {
     list-style-type: none;
